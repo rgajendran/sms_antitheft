@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- new table -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="App Status"
+        android:id="@+id/setting_appstatus_title"
+        android:gravity="center_horizontal"
+        android:padding="15sp"
+        android:background="#669900"
+        android:textColor="#ffffffff" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+            <!-- Row 1 with single column -->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:text="Phone Number 1"
+                    android:id="@+id/title1"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:text="Large Text"
+                    android:id="@+id/key_1_phone1"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center_horizontal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:text="Phone Number 2"
+                    android:id="@+id/title2"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:text="Device"
+                    android:id="@+id/key_2_phone2"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center_horizontal" />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:text="App Password"
+                    android:id="@+id/title3"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:text="Device"
+                    android:id="@+id/key_3_app"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center_horizontal" />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:text="Secure Password"
+                    android:id="@+id/title4"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:text="Device"
+                    android:id="@+id/key_4_secure"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center_horizontal" />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:text="Admin Service"
+                    android:id="@+id/title5"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:text="Device"
+                    android:id="@+id/key_5_admin"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center_horizontal" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50sp"
+        android:text="Next"
+        android:id="@+id/act_welcome_next_btn" />
+</LinearLayout>

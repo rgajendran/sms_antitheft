@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMS Encrypted Commands"
+        android:id="@+id/tv26"
+        android:gravity="center_horizontal"
+        android:padding="15sp"
+        android:background="#669900"
+        android:textColor="#ffffffff" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To send an encrypted command to your device, use the in-build client app using the button below"
+        android:id="@+id/tv27"
+        android:padding="10sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/help_client"
+        android:text="Open Client"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMS Unencrypted Commands"
+        android:id="@+id/tv1"
+        android:gravity="center_horizontal"
+        android:padding="15sp"
+        android:background="#669900"
+        android:textColor="#ffffffff" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/help_title"
+        android:id="@+id/tv2"
+        android:padding="10sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/help_sample"
+        android:textStyle="bold|italic"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tv3"
+        android:gravity="center_horizontal"
+        android:padding="10sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+            <!-- Row 1 with single column -->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:text="Silent Mode"
+                    android:id="@+id/tv4"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:text="smstheft password silent"
+                    android:id="@+id/tv5"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:textColor="#000000"
+                    android:padding="10dip"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:text="Normal Mode"
+                    android:id="@+id/tv6"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:text="smstheft password normal"
+                    android:id="@+id/tv7"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:textColor="#000000"
+                    android:padding="10dip" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:text="Lock Display"
+                    android:id="@+id/tv8"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:text="smstheft password lockdisplay"
+                    android:id="@+id/tv9"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:textColor="#000000"
+                    android:padding="10dip"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:text="Wifi ON"
+                    android:id="@+id/tv10"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:text="smstheft password wifion"
+                    android:id="@+id/tv11"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:textColor="#000000"
+                    android:padding="10dip"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:text="Wifi OFF"
+                    android:id="@+id/tv12"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:text="smstheft password wifioff"
+                    android:id="@+id/tv13"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:textColor="#000000"
+                    android:padding="10dip"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:text="Wifi Name"
+                    android:id="@+id/tv14"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:text="smstheft password wifiname"
+                    android:id="@+id/tv15"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:textColor="#000000"
+                    android:padding="10dip"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:text="Bluetooth ON"
+                    android:id="@+id/tv16"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:text="smstheft password bluetoothon"
+                    android:id="@+id/tv17"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:textColor="#000000"
+                    android:padding="10dip"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:text="Bluetooth OFF"
+                    android:id="@+id/tv18"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:text="smstheft password bluetoothoff"
+                    android:id="@+id/tv19"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:textColor="#000000"
+                    android:padding="10dip"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:text="Location"
+                    android:id="@+id/tv20"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:text="smstheft password location"
+                    android:id="@+id/tv21"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:textColor="#000000"
+                    android:padding="10dip"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:text="SIM Info"
+                    android:id="@+id/tv22"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:text="smstheft password siminfo"
+                    android:id="@+id/tv23"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:textColor="#000000"
+                    android:padding="10dip"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:text="Phone Number"
+                    android:id="@+id/tv24"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:text="smstheft password phonenumber"
+                    android:id="@+id/tv25"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:textColor="#000000"
+                    android:padding="10dip"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Next"
+        android:id="@+id/act_welcome_next_btn" />
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thank You"
+            android:textSize="25sp"
+            android:layout_marginTop="20sp"
+            android:id="@+id/sub_welcome"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SMS AntiTheft is ready to use.."
+            android:textSize="20sp"
+            android:layout_marginTop="20sp"
+            android:id="@+id/sub_welcome1"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff" />
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="10sp"
+            android:src="@mipmap/ic_cloud_done_white_24dp"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Use help menu for more information"
+            android:textSize="20sp"
+            android:layout_marginTop="20sp"
+            android:id="@+id/sub_welcome2"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/act_welcome_status_1"
+            android:background="#ace33f" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1sp"
+            android:layout_weight="1"
+            android:id="@+id/act_welcome_status_2"
+            android:background="#d0cdcd"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="1sp"
+            android:id="@+id/act_welcome_status_3"
+            android:background="#d0cdcd"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1sp"
+            android:layout_weight="1"
+            android:id="@+id/act_welcome_status_4"
+            android:background="#d0cdcd"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1sp"
+            android:layout_weight="1"
+            android:id="@+id/act_welcome_status_5"
+            android:background="#d0cdcd"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50sp"
+        android:text="Next"
+        android:id="@+id/act_welcome_next_btn" />
+
+</LinearLayout>

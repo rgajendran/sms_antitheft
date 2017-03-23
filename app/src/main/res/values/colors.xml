@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#669900</color>
+    <color name="colorPrimaryDark">#669900</color>
+    <color name="colorAccent">#669900</color>
+    <color name="light_white">#FFFFFF</color>
+    <color name="light_blue">#FFFFFF</color>
+    <color name="status_green">#ace33f</color>
+    <color name="off">#ff9999</color>
+    <color name="on">#ace33f</color>
+    <color name="list_date_color">#bbbb77</color>
+</resources>

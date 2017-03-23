@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">SMS AntiTheft</string>
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+    <string name="login_text">Enter your password to login</string>
+
+    <!-- Activation-->
+    <string name="act_welcome_text">Follow the steps to setup your app for SMS AntiTheft protection.
+        There are 4 more additional setup required to completed the activation process</string>
+    <string name="act_phone_text">Enter one or two phone number with country code eg (+44).
+        Use contact button on the right to choose the phone number from your contacts or enter the number manually
+        if you remember them. SMS AntiTheft will only accept commands from these phone numbers</string>
+    <string name="act_password_text">First password is used to open the SMS AntiTheft application. Second password
+        will be used to validate the command everytime when you send the SMS from authorized number</string>
+    <string name="act_password_secure_text">Enter a secret password, this password will be encrypted
+        on your device and gets validated every time when you send remote command</string>
+    <string name="act_device_admin">Activate Device Admin</string>
+    <!--DeviceAdmin-->
+    <string name="admin_description">Description</string>
+    <string name="add_admin_extra_text">Extra Test Goes Here</string>
+
+    <!--Command-->
+    <string name="command_1">smsanti</string>
+    <string name="help_title">Send command sms to your lost phone in the following format. Please note: only use this
+    option in-case of emergency or where the client app is not accessible. If this method is used then command/password may be shown
+    on the device lock screen</string>
+    <!--GCM-->
+
+    <string name="setting_sms_response">Send Response through SMS</string>
+    <string name="settings_sim_change">SIM Card Change Alert</string>
+    <string name="settings_info">Alerts are sent through SMS (Charges may apply as per your service provider),
+        it is recommended to activate a free SMS plan</string>
+    <string name="help_sample"><![CDATA[smstheft <space> password <space> command]]></string>
+
+</resources>
